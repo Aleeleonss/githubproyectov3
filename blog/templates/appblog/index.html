@@ -1,0 +1,145 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Ven Vive Ve</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'Proyectoapp/css/estilos2.css' %}">
+</head>
+<body>
+    <div class="contenido-header">
+              <h1 class="texto">Bienvenidos a Ven Vive Ve</h1>
+    </div>
+<nav class="menu">
+    <ul>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#productos">Servicios</a>
+        <a href="#contacto">Contacto </a>
+    <ul>
+
+<nav>
+
+<main class="container">
+    <div class="row nosotros justify-content-center">
+        <div class="col-12 text-center">
+            <h2 class="subtitulo" id="nosotros"><span>¿Quienes Somos?</span></h2>
+            <h3 class="titulo"> Iglesia Pentecosal Apostolica</h3>
+            <p>Como siempre decimos, la iglesia no es un lugar. No está condicionada a formatos ni locales. La iglesia es el imparable Cuerpo de Cristo, todos aquellos que hemos sido rescatados y restaurados por su amor.
+
+                V3 en Línea es la mejor oportunidad de poder conectar con Jesús a través de las nuevas tecnologías. En esta plataforma podrás ver nuestra reuniones, eventos y musica. Pero no sólo eso, podrás contactar con nuestro equipo y ser parte de nuestra comunidad, contribuyendo de diferentes formas.
+                </p>
+                <a href="https://www.facebook.com/venviveve" target="_blank">Visitanos!</a>
+
+        </div>
+    </div>
+
+    <div class="row productos">
+        <article class="col-12 text-center">
+            <h2 class="subtitulo" id="productos"><span>Lo que hacemos!</snap></h2>
+            <p class="titulo">Nuestros Servicios</p>
+            <p class="texto">Como Ministerio de Jovenes desolvemos varias areas que te pueden interesar tanto como musical, talleres y reuniones
+            </p>
+
+        </article>
+
+    <div class="col-12">
+        <div class="row">
+            <article class="col-6 col-lg-3 py-1">
+                <figure class="producto">
+                    <img src="{% static 'Proyectoapp/img/productos/zoom.jpeg'%}" class="img-fluid" alt="">
+                    <a href="https://us02web.zoom.us/j/82282255423?pwd=ZnJJL09FV3dTVDdmeXNBRys1VkE1Zz09#success" target="_blank">V3 ONLINE</a>
+                    <p>Debido a pandemia todo nuestros servicios son online, te invitamos a unirte a nuestras reuniones por zoom!
+                      </p>
+                </figure>
+
+            </article>
+
+              <article class="col-6 col-lg-3 py-1">
+                <figure class="producto">
+                    <img src="{% static 'Proyectoapp/img/productos/infotmacion.jpg'%}" class="img-fluid" alt="">
+                    <a href="https://www.instagram.com/venviveve/" target="_blank">Información!</a>
+                    <p>No te pierdas de nuestros eventos, nuestra musica y talleres! Siguenos en Instagram para que estes informado de todo
+                      </p>
+                </figure>
+
+            </article>
+
+              <article class="col-6 col-lg-3 py-1">
+                <figure class="producto">
+                    <img src="{% static 'Proyectoapp/img/productos/youtube.jpeg'%}" class="img-fluid" alt="">
+                    <a href="https://www.youtube.com/user/VenViveVe?sub_confirmation=1" target="_blank">Youtube</a>
+                    <p>Puedes ver nuestros videos, capsulas, podcats y diferentes contenido en nuestro canal de youtube
+                      </p>
+                </figure>
+
+            </article>
+
+              <article class="col-6 col-lg-3 py-1">
+                <figure class="producto">
+                    <img src="{% static 'Proyectoapp/img/productos/V3music.jpeg'%}" class="img-fluid" alt="">
+                    <a href="https://open.spotify.com/artist/07ddNLCuMiUoBS1tzsfaF1?si=0vcBzQZPQXyAEU39CLBgxQ" target="_blank">Spotify!</a>
+                    <p>Escuchanos en Spotify! como minesterio de jovenes tambien tenemos una banda V3 musica para que puedas escuchar nuestro temas!
+                      </p>
+                </figure>
+
+            </article>
+
+        </div>
+
+    </div>
+
+    </div>
+</main>
+
+<div class="separador text-center text">
+    <p><q> Porque tú, Señor, eres bueno y perdonador, Y grande en misericordia para con todos los que te invocan.</q></p>
+
+</div>
+
+
+
+    <div class="container-fluid px-0 galeria">
+        <div class="row justify-content-cebter mx-0 px-0">
+        <div class="col-4 px-0 mx-0">
+            <img src="{% static 'Proyectoapp/img/3fotos/musica.jpeg'%}" alt="">
+        </div>
+        <div class="col-4 px-0 mx-0">
+            <img src="{% static 'Proyectoapp/img/3fotos/obispo.jpeg'%}" alt="">
+        </div>
+        <div class="col-4 px-0 mx-0">
+            <img src="{% static 'Proyectoapp/img/3fotos/amor.jpeg'%}" alt="">
+        </div>
+    </div>
+
+</div>
+
+<div class="container-fluid">
+    <section class="contacto row justify-content-center">
+        <div class="col-12 col-md-9 text center">
+            <h2 class="subtitulo" id="contacto"> <span>Contactanos</span></h2>
+        </div>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.7738003849317!2d-70.70607228484529!3d-33.42914118077996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c4126c102099%3A0x7edd6d3f76f4b032!2sIglesia%20Pentecostal%20Apost%C3%B3lica!5e0!3m2!1ses-419!2scl!4v1600996117049!5m2!1ses-419!2scl" width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>    <div class="w-100">
+        <div>
+            <p>
+                <img src="{% static 'Proyectoapp/img/iconos/icon-cellphone.png'%}" alt="">Celular: +56934135320
+            </p>
+        </div>
+
+    </div>
+
+    
+   
+</div>
+        <footer>
+            <a href="{% url 'formulario2' %}"><button>Ingresar</button></a>
+        </footer>
+
+    <script src="{% static 'Proyectoapp/js/main.js'%}"></script>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+
+</body>
+</html>

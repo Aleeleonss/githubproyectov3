@@ -1,0 +1,49 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'Proyectoapp/css/estilos.css' %}">
+    <title>Crear cuenta</title>
+</head>
+<body>
+       <h1>Crear un  nuevo Usuario </h1> 
+      
+        <form method="POST" class="post-form" >
+          <input type="hidden" name="csrfmiddlewaretoken" value="q5It2UrrjZebFba1K3mYFa3SCce2FwshDXKBVyT1lbS8PvHzp3cQTKlarzxDlM6x">
+          <div class="formulario__grupo" id="grupo__usuario">
+         <p><label for="id_usuario" class="formulario__label" >Usuario:</label> <textarea name="usuario" cols="40" rows="2" maxlength="30" required id="id_usuario">
+</textarea></p>
+</div>
+
+<div class="formulario__grupo" id="grupo__usuario">
+<p><label for="id_nombre" class="formulario__label" >Nombre:</label> <textarea name="nombre" cols="40" rows="2" maxlength="22" required id="id_nombre">
+</textarea></p>
+</div>
+
+<div class="formulario__grupo" id="grupo__usuario">
+<p><label for="id_contraseña" class="formulario__label" >Contraseña:</label> <textarea name="contraseña" cols="40" rows="2" maxlength="30" required id="id_contraseña">
+</textarea></p>
+</div>
+
+<div class="formulario__grupo" id="grupo__usuario">
+<p><label for="id_contraseña2" class="formulario__label" >Contraseña2:</label> <textarea name="contraseña2" cols="40" rows="2" maxlength="30" required id="id_contraseña2">
+</textarea></p>
+</div>
+
+<div class="formulario__grupo" id="grupo__usuario">
+<p><label for="id_correo" class="formulario__label" >Correo:</label> <textarea name="correo" cols="40" rows="2" maxlength="30" required id="id_correo">
+</textarea></p>
+</div>
+
+<div class="formulario__grupo" id="grupo__usuario">
+<p><label for="id_telefono" class="formulario__label" >Telefono:</label> <textarea class="formulario__grupo-input" name="telefono" cols="40" rows="2" maxlength="12" required id="id_telefono">
+</textarea></p>
+</div>
+       <button type="submit" class="formulario__btn">Enviar</button>
+      
+    </form>  
+        
+</body>
+</html>
